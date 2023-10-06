@@ -7,13 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    
-<output></output>
+    <div class="box-question">
+        <div class="header">
+            <h3>Chat</h3>
+        </div>
+        <p id="status"></p>
+        <div id="historic">
 
-<input type="text">
-
-
-
-    <script src="chat.js"></script>
+        </div>
+        <div class="footer">
+            <input type="text" placeholder="Digite uma mensagem..." id="message-input">
+            <button id="button" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
 </body>
+<script src="chat.js"></script>
 </html>
