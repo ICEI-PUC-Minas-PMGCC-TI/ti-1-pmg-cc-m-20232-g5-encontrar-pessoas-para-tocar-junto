@@ -1,5 +1,3 @@
-const apiKey = "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"
-
 //Definir frases aleatorias
 
 const Frases = [
@@ -72,7 +70,7 @@ function showHistoric(message){
     chatResponse.className = 'chat-response'
 
 
-   
+    chatResponse.innerHTML = 'Digitando...';
 
 
     setTimeout(function(){
@@ -99,6 +97,13 @@ function showHistoric(message){
  
  
      //fim animação
+
+
+     //Caixa de escolha
+     
+     function selecionar(){
+
+     }
     
     
 
