@@ -7,6 +7,8 @@
 
 }
 
+
+
 body{
     background-color: var(--dark);
     color: var(--white);
@@ -170,6 +172,9 @@ body{
   .custom-checkbox input[type="checkbox"]:checked + label {
     font-weight: bold; /* Exemplo de estilo quando marcado */
   }
+
+  
+
 
 @keyframes girando{
     to{

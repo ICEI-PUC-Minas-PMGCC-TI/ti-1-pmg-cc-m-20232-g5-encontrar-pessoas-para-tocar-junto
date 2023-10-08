@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="chat.css" class="css">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="selection">
         <div class="header">
             <div class="custom-checkbox">
-                <input type="checkbox" id="pessoas" name="opcao1" value="1" >
+                <input type="checkbox" id="pessoas" name="opcao1" value="1" onclick="selecionar()">
                 <label for="pessoas">
                     <img src="./img/Pessoa.png" style="width: 40px; height: 40px; margin-left: 15px;">
                     Pessoas
                 </label>
-                <input type="checkbox" id="bandas" value="2" name="opcao2">
+                <input type="checkbox" id="bandas" value="2" name="opcao2" onclick="selecionar()">
                 <label for="bandas">
                     <img src="./img/band.png" style="width: 40px; height: 40px; margin-left: 15px; border: 50px;">
                     Bandas
                 </label>
             </div>
-                
+
         </div>
 
-        <div class="selecaoP" id="selecionar"></div>
+        <div class="Historico_de_Pessoas" id="procurar">
+            
+            <div class="pessoa1" style="margin-top: -200px;" onclick="selecionar()" >
+                <img src="./img/Pessoa.png" style="width: 40px; height: 40px; float: left;">
+                <p style="float: left; margin-left: 10px;">Pessoa1</p>
+            </div>
+            <div class="pessoa1" style="margin-top: 70px;" onclick="selecionar()">
+                <img src="./img/Pessoa.png" style="width: 40px; height: 40px; float: left;" >
+                <p style="float: left; margin-left: 10px;">Pessoa2</p>
+            </div>
+            <div class="pessoa1" style="margin-top: 140px;" onclick="selecionar()">
+                <img src="./img/Pessoa.png" style="width: 40px; height: 40px; float: left;">
+                <p style="float: left; margin-left: 10px;">Pessoa3</p>
+            </div>
+            <div class="pessoa1" style="margin-top: 210px;" onclick="selecionar()">
+                <img src="./img/Pessoa.png" style="width: 40px; height: 40px; float: left;">
+                <p style="float: left; margin-left: 10px;">Pessoa4</p>
+            </div>
+            <div class="pessoa1" style="margin-top: 290px;" onclick="selecionar()">
+                <img src="./img/Pessoa.png" style="width: 40px; height: 40px; float: left;">
+                <p style="float: left; margin-left: 10px;">Pessoa5</p>
+            </div>
+        </div>
 
         <div class="footer">
-            
+
         </div>
 
     </div>
 
     <div class="box-question">
-        <div class="header">
-            <h2 id="nome" class="nome"></h2>
-            <h3>Chat</h3>
+        <div class="header" id="header1">
+            <h3 id="amigo1">Chat</h3>
         </div>
         <p id="status"></p>
         <div id="historic">
@@ -49,4 +72,5 @@
     </div>
 </body>
 <script src="chat.js"></script>
+
 </html>
