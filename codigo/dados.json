@@ -1,0 +1,32 @@
+{ 
+"perfis": [ 
+    {
+        "id": "1",
+        "nome": "roberto",
+        "idade": "22",
+        "minidescrição": "olá meu nome é roberto tenho 22 anos amor tocar minha guitarra e procuro uma banda",
+        "estilo": "rock",
+        "instrumento": "guitarra",
+        "estado": "solo",
+        "imagem": "img/roberto1.jpeg"
+    },
+    {
+        "id": "2",
+        "nome": "pedro",
+        "idade": "24",
+        "minidescrição": "olá meu nome  é pedro tenho 24 anos amor tocar meu violão e procuro uma banda",
+        "estilo": "indie",
+        "instrumento": "violao",
+        "estado": "solo"
+    },
+    {
+        "id": "3",
+        "nome": "ana",
+        "idade": "18",
+        "minidescrição": "olá meu nome é ana tenho 18 anos amor tocar meu piano e procuro uma banda",
+        "estilo": "indie",
+        "instrumento": "piano",
+        "estado": "solo"
+    }
+  ]
+}
