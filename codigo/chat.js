@@ -63,7 +63,7 @@ function showHistoric(message) {
     boxMyMessage.appendChild(MyMessage)
     historic.appendChild(boxMyMessage)
 
-    //respostas 
+    //r espostas 
 
     var RespostaMessage = document.createElement('div')
     RespostaMessage.className = 'box-response-message'
@@ -106,6 +106,7 @@ function showHistoric(message) {
 
 
 }
+
 function selecionar() {
     let pessoas = document.getElementById("pessoas");
     let bandas = document.getElementById("bandas");
@@ -183,26 +184,6 @@ function Limpar(clique) {
     historic.innerHTML = '';
 }
 
-
-
-/*(var procura = document.createElement('div')
-var paragrafo = document.getElementById('users1')
-procura.className = 'caixa_de_pessoas'
-
-var users = document.createElement('p')
-users.className = 'usuarios'
-users.id = 'users1'
-users.onclick = selecionar
-users.innerHTML = gerarFrase();
-
-procura.appendChild(users)
-Historic2.appendChild(procura)
-
-
-paragrafo.addEventListener('click', function(){
-    Limpar();
-    users.style.fontWeight = 'bold';
-});*/
 
 
 
