@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #0d101b;
+    font-family: fantasy;
+    background-image: linear-gradient(#0d101b,#6b2341);
 }
 
 p {
@@ -66,7 +66,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #281a2d;
+    background-image: #281a2d;
 }
 
 #sidebar ul.components {
@@ -86,7 +86,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #442e37;
+    color: #0d101b;
     background: #ebede6;
 }
 
@@ -129,7 +129,7 @@ ul.CTAs a {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
-    color: #ee243d;
+    color: #af2747;
 }
 
 /* ---------------------------------------------------
