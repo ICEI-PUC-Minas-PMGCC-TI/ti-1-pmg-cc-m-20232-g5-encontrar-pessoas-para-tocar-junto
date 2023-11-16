@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Bandas</title>
+    <link rel="stylesheet" href="cad.css">
+</head>
+<body>
+    <h1>Cadastro de Bandas</h1>
+    <div>
+        <label for="bandName">Nome da Banda:</label>
+        <input type="text" id="bandName">
+    </div>
+    <div>
+        <label for="bandMembers">Integrantes:</label>
+        <textarea id="bandMembers"></textarea>
+    </div>
+    <button style="margin-right: 180px;" onclick="adicionarBanda()">Adicionar Banda</button>
+    <div id="bandList"></div>
+
+    <script src="cad.js"></script>
+</body>
+</html>

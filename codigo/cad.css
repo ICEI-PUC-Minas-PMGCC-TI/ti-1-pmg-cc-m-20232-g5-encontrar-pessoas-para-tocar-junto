@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fff; /* Fundo branco */
+}
+
+h1 {
+    text-align: center;
+    color: #e60000; /* Vermelho */
+}
+
+div {
+    margin-bottom: 10px;
+    text-align: center; /* Centraliza divs */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e60000; /* Vermelho */
+}
+
+input, textarea {
+    width: 50%; /* Define largura para 50% */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #e60000; /* Borda vermelha */
+    border-radius: 5px;
+    text-align: center; /* Centraliza texto */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e60000; /* Vermelho */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animação na cor de fundo */
+}
+
+button:hover {
+    background-color: #ff6666; /* Vermelho claro ao passar o mouse */
+}
