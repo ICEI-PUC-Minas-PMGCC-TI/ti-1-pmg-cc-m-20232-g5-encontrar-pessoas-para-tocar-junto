@@ -4,14 +4,6 @@ body {
     background-image: linear-gradient(#0d101b,#281a2d);
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #af2747;
-}
-
 a,
 a:hover,
 a:focus {
@@ -22,7 +14,6 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #0d101b;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -146,4 +137,29 @@ ul.CTAs a {
     #sidebarCollapse span {
         display: none;
     }
+}
+
+.perfilCard {
+    display: flexbox;
+    color:#af2747;
+    float: left;
+    max-width: 100%;
+}
+
+.perfilCard img {
+    border-radius: 50%;
+    max-width: 60%;
+    float: right;
+}
+
+.nome {
+    font-size: 500%;
+}
+
+.contatos {
+    font-size: 300%;
+}
+
+h2 {
+    color: #ee243d;
 }

@@ -1,0 +1,28 @@
+[
+    {
+        "id": "0",
+        "nome": "Pedro",
+        "descricao": "'Músico profissional'",
+        "instumentos": ["guitarra","baixo"],
+        "instagram": "@pedro.insta",
+        "contato": "(00)99999-9999"
+    },
+
+    {
+        "id": "1",
+        "nome": "Mateus",
+        "descricao": "'Músico amador'",
+        "instumentos": ["violão"],
+        "instagram": "@mateus.insta",
+        "contato": "(00)98888-9999"
+    },
+
+    {
+        "id": "2",
+        "nome": "Nicolas",
+        "descricao": "'Toco por hobbie'",
+        "instumentos": ["bateria", "violino", "teclado", "banjo", "flauta transversal", "punhe..."],
+        "instagram": "@pedro.insta",
+        "contato": "(00)99999-8888"
+    }
+]
