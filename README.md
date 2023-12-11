@@ -21,4 +21,5 @@ graças ao aplicativo.
 
 ## Instruções de utilização 🎧
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+![Alt Text](https://media4.giphy.com/media/5PSPV1ucLX31u/giphy.gif)
+
