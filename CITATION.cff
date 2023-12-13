@@ -1,32 +1,40 @@
 <<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Central do Musico
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: França da Silva    
+    given-names: Kaiky  
+  - family-names: Souza Carvalho
+    given-names: Arthur
+  - family-names: Pietsch Horta
+    given-names: Gabriel Portugal
+  - family-names: Souza Lopes
+    given-names: Luis Felipe
+  - family-names: Lucio e Santos
+    given-names: Kaio Henrique
+  - family-names: Milione Assis  
+    given-names: Luis Gabriel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Amy Saldanha Rivero
+    given-names: Ilo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Oliveira Caetano
+    given-names: Joao Carlos 
 keywords:
-  - 
-  - 
-repository-code: 
+  - Musica
+  - Encontro de musicos
+  - Site para encontrar bandas
+  - Bandas
+  - Sepultura sempre será lembrado como a melhor banda brasileira
+  - Encontrar bandas
+repository-code: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20232-g5-encontrar-pessoas-para-tocar-junto.git
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
