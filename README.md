@@ -12,6 +12,7 @@ graças ao aplicativo.
 * Kaiky França da Silva
 * Luis Felipe Souza Lopes
 * Kaio Henrique Lucio e Santos
+* Luiz Gabriel Milione Assis
 
 ## Professores responsáveis 🎧
 
